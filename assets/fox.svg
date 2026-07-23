@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <style>
+      <![CDATA[
+        .st-line { stroke: #8B949E; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+        .st-accent { fill: #58A6FF; }
+        .st-bg { fill: #161B22; stroke: #30363D; stroke-width: 1; }
+      ]]>
+    </style>
+  </defs>
+
+  <!-- Background Terminal Badge -->
+  <rect x="5" y="5" width="110" height="110" rx="8" class="st-bg"/>
+
+  <!-- Minimal Line Art Fox Assistant -->
+  <g transform="translate(10, 10)">
+    <!-- Ears -->
+    <polygon points="25,45 15,15 45,30" class="st-line"/>
+    <polygon points="75,45 85,15 55,30" class="st-line"/>
+
+    <!-- Head Contour -->
+    <polygon points="50,85 15,45 25,35 50,30 75,35 85,45" class="st-line"/>
+
+    <!-- Muzzle & Nose -->
+    <polygon points="50,85 38,60 50,68 62,60" fill="#F5F5F5"/>
+    <rect x="46" y="66" width="8" height="5" fill="#0D1117" rx="1"/>
+
+    <!-- Eyes (Minimal Monospace Dots) -->
+    <circle cx="36" cy="48" r="4" class="st-accent"/>
+    <circle cx="64" cy="48" r="4" class="st-accent"/>
+
+    <!-- Terminal Prompt Under Head -->
+    <text x="50" y="96" font-family="monospace" font-size="10" fill="#8B949E" text-anchor="middle">fox@term</text>
+  </g>
+</svg>

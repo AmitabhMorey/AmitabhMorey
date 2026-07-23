@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 30" width="100%" height="100%">
+  <defs>
+    <style>
+      <![CDATA[
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+        .font-mono { font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+        .c-bg { fill: #0D1117; }
+        .c-dim { fill: #30363D; }
+        .c-muted { fill: #8B949E; }
+      ]]>
+    </style>
+  </defs>
+
+  <rect width="1600" height="30" class="c-bg"/>
+
+  <!-- ASCII Divider Line -->
+  <line x1="40" y1="15" x2="720" y2="15" stroke="#30363D" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <circle cx="730" cy="15" r="2.5" fill="#58A6FF"/>
+
+  <g transform="translate(800, 19)">
+    <text x="0" y="0" class="font-mono c-muted" text-anchor="middle" letter-spacing="2">[ 0x41 0x4D // SYSTEM_SECTION ]</text>
+  </g>
+
+  <circle cx="870" cy="15" r="2.5" fill="#58A6FF"/>
+  <line x1="880" y1="15" x2="1560" y2="15" stroke="#30363D" stroke-width="1.5" stroke-dasharray="6 4"/>
+</svg>

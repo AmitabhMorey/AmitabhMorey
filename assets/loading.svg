@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 360" width="100%" height="100%">
+  <defs>
+    <style>
+      <![CDATA[
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+        .font-mono { font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace; }
+
+        .c-bg { fill: #0D1117; }
+        .c-surface { fill: #161B22; }
+        .c-border { stroke: #30363D; stroke-width: 1; }
+        .c-text { fill: #F5F5F5; }
+        .c-muted { fill: #8B949E; }
+        .c-dim { fill: #484F58; }
+        .c-accent { fill: #3FB950; } /* Accent 2: Green */
+      ]]>
+    </style>
+  </defs>
+
+  <rect width="1600" height="360" class="c-bg"/>
+
+  <!-- Terminal Window Outer Frame -->
+  <rect x="30" y="20" width="1540" height="320" rx="8" class="c-surface" stroke="#30363D" stroke-width="1.5"/>
+
+  <!-- Header Bar -->
+  <path d="M 30 28 A 8 8 0 0 1 38 20 L 1562 20 A 8 8 0 0 1 1570 28 L 1570 54 L 30 54 Z" fill="#0D1117"/>
+  <line x1="30" y1="54" x2="1570" y2="54" stroke="#30363D" stroke-width="1.5"/>
+  <text x="50" y="42" class="font-mono c-accent" font-size="12" font-weight="bold">SYSTEM DIAGNOSTICS // FASTFETCH CONTROL</text>
+  <text x="1550" y="42" class="font-mono c-dim" font-size="11" text-anchor="end">STATUS: ONLINE [0 ERRORS]</text>
+
+  <!-- Body Content Layout (Two Columns) -->
+
+  <!-- COLUMN 1: FASTFETCH / NEOFETCH STYLE METRICS -->
+  <g transform="translate(60, 85)">
+    <!-- ASCII Arch / Tux Logo -->
+    <g class="font-mono c-accent" font-size="14">
+      <text x="0" y="15">       /\       </text>
+      <text x="0" y="33">      /  \      </text>
+      <text x="0" y="51">     /\   \     </text>
+      <text x="0" y="69">    /      \    </text>
+      <text x="0" y="87">   /   ,,   \   </text>
+      <text x="0" y="105">  /   |  |  -\  </text>
+      <text x="0" y="123"> /_-''    ''-_\ </text>
+    </g>
+
+    <!-- System Specs Text -->
+    <g transform="translate(180, 15)" class="font-mono" font-size="13">
+      <text x="0" y="0"><tspan class="c-accent" font-weight="bold">amitabh</tspan><tspan class="c-muted">@</tspan><tspan class="c-accent" font-weight="bold">dev-station</tspan></text>
+      <text x="0" y="12" class="c-dim">-----------------------</text>
+
+      <text x="0" y="32"><tspan class="c-accent">OS</tspan><tspan class="c-muted">..........</tspan> <tspan class="c-text">Linux x86_64 Hardened</tspan></text>
+      <text x="0" y="52"><tspan class="c-accent">Host</tspan><tspan class="c-muted">........</tspan> <tspan class="c-text">Amitabh-Core-OS (v2.4)</tspan></text>
+      <text x="0" y="72"><tspan class="c-accent">Kernel</tspan><tspan class="c-muted">......</tspan> <tspan class="c-text">6.12.8-arch1-1-hardened</tspan></text>
+      <text x="0" y="92"><tspan class="c-accent">Uptime</tspan><tspan class="c-muted">......</tspan> <tspan class="c-text">365 days, 8,760 hours continuous</tspan></text>
+      <text x="0" y="112"><tspan class="c-accent">Shell</tspan><tspan class="c-muted">.......</tspan> <tspan class="c-text">zsh 5.9 (x86_64-apple-darwin)</tspan></text>
+      <text x="0" y="132"><tspan class="c-accent">Terminal</tspan><tspan class="c-muted">....</tspan> <tspan class="c-text">Ghostty / tmux 3.4</tspan></text>
+      <text x="0" y="152"><tspan class="c-accent">Editor</tspan><tspan class="c-muted">......</tspan> <tspan class="c-text">Neovim (LazyVim + Custom C++ Config)</tspan></text>
+    </g>
+  </g>
+
+  <!-- Vertical Column Separator -->
+  <line x1="840" y1="70" x2="840" y2="300" stroke="#30363D" stroke-dasharray="4 4"/>
+
+  <!-- COLUMN 2: REAL OPERATIONAL MICRO-DETAILS -->
+  <g transform="translate(880, 85)" class="font-mono" font-size="13">
+    <text x="0" y="15" class="c-muted" font-size="12">// MICRO DETAILS &amp; WORKSPACE STATUS</text>
+
+    <g transform="translate(0, 40)">
+      <text x="0" y="0"><tspan class="c-muted">Last Commit</tspan><tspan class="c-dim">.......</tspan> <tspan class="c-accent" font-weight="bold">2 hours ago</tspan></text>
+      <text x="0" y="25"><tspan class="c-muted">Active Branch</tspan><tspan class="c-dim">.....</tspan> <tspan class="c-text">main</tspan></text>
+      <text x="0" y="50"><tspan class="c-muted">Working Tree</tspan><tspan class="c-dim">......</tspan> <tspan class="c-accent">Clean [0 modified files]</tspan></text>
+      <text x="0" y="75"><tspan class="c-muted">Repositories</tspan><tspan class="c-dim">......</tspan> <tspan class="c-text">31 projects indexed</tspan></text>
+      <text x="0" y="100"><tspan class="c-muted">Security State</tspan><tspan class="c-dim">....</tspan> <tspan class="c-accent">Zero-Trust Hardened</tspan></text>
+    </g>
+
+    <!-- Current Focus Box -->
+    <g transform="translate(0, 165)">
+      <rect width="630" height="50" fill="#0D1117" rx="4" stroke="#30363D" stroke-width="1"/>
+      <text x="15" y="20" class="c-muted" font-size="11">CURRENT ENGINEERING FOCUS:</text>
+      <text x="15" y="38" class="c-accent" font-size="12" font-weight="bold">Kernel Internals   •   Network Tooling   •   Reverse Engineering</text>
+    </g>
+  </g>
+</svg>
