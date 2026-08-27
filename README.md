@@ -108,7 +108,7 @@ current_focus = {
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AmitabhMorey&theme=tokyo-night&hide_border=false&area=true)
+<img src="./assets/contrib-heatmap.svg" alt="Amitabh Morey's Contribution Heatmap" width="880" />
 
 </div>
 
