@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 985 530" width="100%" height="100%" font-family="ConsolasFallback, Consolas, Monaco, 'JetBrains Mono', 'Fira Code', monospace" font-size="14.5px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold'), local('JetBrains Mono');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+}
+.key { fill: #ffa657; font-weight: 600; }
+.val { fill: #79c0ff; }
+.ascii { fill: #58a6ff; }
+.comment { fill: #6e7681; }
+.dots { fill: #30363d; }
+.white { fill: #c9d1d9; }
+.green { fill: #3fb950; font-weight: bold; }
+.hdr { fill: #58a6ff; font-weight: bold; }
+text, tspan { white-space: pre; }
+</style>
+<rect width="985" height="530" fill="#0d1117" rx="14" stroke="#30363d" stroke-width="1.5"/>
+
+<!-- Left Pane: ASCII Art -->
+<text x="25" y="44" class="ascii">
+<tspan x="25" y="44.0">               ,----------------.           </tspan>
+<tspan x="25" y="63.2">          .---&#x27;  \            /  `---.      </tspan>
+<tspan x="25" y="82.4">         /        \          /        \     </tspan>
+<tspan x="25" y="101.6">        |   /\     \  .----.  /   /\   |    </tspan>
+<tspan x="25" y="120.8">        |  /  \     \/  __  \/   /  \  |    </tspan>
+<tspan x="25" y="140.0">        | / /\ \     \ (  ) /   / /\ \ |    </tspan>
+<tspan x="25" y="159.2">        |/ /  \ \     \ `--&#x27;   / /  \ \|    </tspan>
+<tspan x="25" y="178.4">        | /    \ \    | .--.  / /    \ |    </tspan>
+<tspan x="25" y="197.6">        |/      \ \   | |--| / /      \|    </tspan>
+<tspan x="25" y="216.8">        |        \ \  | |__|/ /        |    </tspan>
+<tspan x="25" y="236.0">        |         \ \ |    / /         |    </tspan>
+<tspan x="25" y="255.2">        |          \ \|   / /          |    </tspan>
+<tspan x="25" y="274.4">        |           \ |  / /           |    </tspan>
+<tspan x="25" y="293.6">        |       .----.|  |----.        |    </tspan>
+<tspan x="25" y="312.8">        |      [______________]        |    </tspan>
+<tspan x="25" y="332.0">        |        \    ||    /          |    </tspan>
+<tspan x="25" y="351.2">        |         \   ||   /           |    </tspan>
+<tspan x="25" y="370.4">        |          \  ||  /            |    </tspan>
+<tspan x="25" y="389.6">         \   /\     \ || /     /\     /     </tspan>
+<tspan x="25" y="408.8">          \ /  \     \||/     /  \   /      </tspan>
+<tspan x="25" y="428.0">           \    \     \/     /    \ /       </tspan>
+<tspan x="25" y="447.2">            \    `----------&#x27;      /        </tspan>
+<tspan x="25" y="466.4">             \    CYBER_GUARD     /         </tspan>
+<tspan x="25" y="485.6">              \                  /          </tspan>
+<tspan x="25" y="504.8">               `----------------&#x27;           </tspan>
+</text>
+
+<!-- Right Pane: Neofetch System Information -->
+<text x="440" y="38">
+<tspan x="440" y="38"><tspan class="hdr">amitabh@security-node</tspan><tspan class="comment"> -——————————————————————————————————————————-—-</tspan></tspan>
+<tspan x="440" y="58"><tspan class="comment">. </tspan><tspan class="key">OS</tspan>:<tspan class="dots"> .......................... </tspan><tspan class="val">Arch Linux / macOS (Darwin arm64)</tspan></tspan>
+<tspan x="440" y="78"><tspan class="comment">. </tspan><tspan class="key">Host</tspan>:<tspan class="dots"> ..................... </tspan><tspan class="val">ITM Skills Univ [CSE - Cyber Security]</tspan></tspan>
+<tspan x="440" y="98"><tspan class="comment">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dots"> ...................... </tspan><tspan class="val">Security Researcher & Systems Builder</tspan></tspan>
+<tspan x="440" y="118"><tspan class="comment">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dots"> ...................... </tspan><tspan class="val">20+ years, active in code</tspan></tspan>
+<tspan x="440" y="138"><tspan class="comment">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dots"> ......................... </tspan><tspan class="val">Cursor, VSCode, Neovim</tspan></tspan>
+<tspan x="440" y="163"><tspan class="comment">. </tspan><tspan class="key">Languages.Systems</tspan>:<tspan class="dots"> ........... </tspan><tspan class="val">Rust, Go, C++, C, Python, Shell</tspan></tspan>
+<tspan x="440" y="183"><tspan class="comment">. </tspan><tspan class="key">Languages.Apps</tspan>:<tspan class="dots"> .............. </tspan><tspan class="val">TypeScript, JavaScript, Dart, Java</tspan></tspan>
+<tspan x="440" y="203"><tspan class="comment">. </tspan><tspan class="key">Frameworks.Core</tspan>:<tspan class="dots"> ............. </tspan><tspan class="val">FastAPI, Spring Boot, Astro, Flutter</tspan></tspan>
+<tspan x="440" y="223"><tspan class="comment">. </tspan><tspan class="key">Security.Arsenal</tspan>:<tspan class="dots"> ............ </tspan><tspan class="val">Nmap, Shodan, Wireshark, Docker, AES-256</tspan></tspan>
+<tspan x="440" y="243"><tspan class="comment">. </tspan><tspan class="key">Security.Focus</tspan>:<tspan class="dots"> .............. </tspan><tspan class="val">Network Protocols, Reverse Eng, P2P E2EE</tspan></tspan>
+<tspan x="440" y="268"><tspan class="hdr">- Signals & Telemetry</tspan><tspan class="comment"> -——————————————————————————————————————-—-</tspan></tspan>
+<tspan x="440" y="288"><tspan class="comment">. </tspan><tspan class="key">Email</tspan>:<tspan class="dots"> ....................... </tspan><tspan class="val">amitabhmorey1@gmail.com</tspan></tspan>
+<tspan x="440" y="308"><tspan class="comment">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="dots"> .................... </tspan><tspan class="val">in/amitabh-morey-906984248</tspan></tspan>
+<tspan x="440" y="328"><tspan class="comment">. </tspan><tspan class="key">X (Twitter)</tspan>:<tspan class="dots"> ................. </tspan><tspan class="val">@beingamitabh</tspan></tspan>
+<tspan x="440" y="353"><tspan class="hdr">- GitHub Ecosystem</tspan><tspan class="comment"> -————————————————————————————————————————-—-</tspan></tspan>
+<tspan x="440" y="373"><tspan class="comment">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dots"> .... </tspan><tspan class="val">61 Total</tspan> <tspan class="comment">{</tspan><tspan class="key">Public</tspan>: <tspan class="val">40</tspan><tspan class="comment">, </tspan><tspan class="key">Core</tspan>: <tspan class="val">21</tspan><tspan class="comment">}</tspan> <tspan class="comment">|</tspan> <tspan class="key">Status</tspan>:<tspan class="dots"> ... </tspan><tspan class="green">Online [⚡]</tspan></tspan>
+<tspan x="440" y="393"><tspan class="comment">. </tspan><tspan class="key">Focus</tspan>:<tspan class="dots"> .... </tspan><tspan class="val">Building High-Performance &amp; Secure Systems</tspan></tspan>
+</text>
+</svg>
