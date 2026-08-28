@@ -104,16 +104,6 @@ current_focus = {
 
 ---
 
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="./assets/contrib-heatmap.svg" alt="Amitabh Morey's Contribution Heatmap" width="880" />
-
-</div>
-
----
-
 ## ✍️ Random Dev Quote
 
 <div align="center">
